@@ -22,7 +22,7 @@ def radio_jeans(n,mu,T):
     a = 15*k*T
     b = 4*np.pi*mu*mH*ro*G
 
-    return a/b
+    return (a/b)**0.5
 
 def dPdr_p2(n,T,Rj):
     k  = 1.38e-23  #J K^-1
